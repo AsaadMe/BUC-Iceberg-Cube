@@ -109,5 +109,5 @@ def main():
     print("Cell Counts:", cell_counter)
     print("Pruned Cells:", 3 ** len(cell) - cell_counter)
 
-
-main()
+if __name__ == "__main__":
+    main()
